@@ -1,0 +1,58 @@
+@media only screen and (max-width: 992px) {
+  #header .container .inner_header #hamburger_menu {
+    display: block;
+  }
+  #header .container .inner_header nav ul {
+    display: none;
+  }
+  #header .container .inner_header .header_btn {
+    display: none;
+  }
+  #data_storage .container .inner_data_storage {
+    flex-wrap: wrap;
+  }
+  .inner_data_storage .image {
+    flex-basis: 100%;
+  }
+  .inner_data_storage .content {
+    flex-basis: 100%;
+  }
+  #feature .container .inner_feature {
+    flex-wrap: wrap;
+  }
+  #feature .container .inner_feature .box {
+    flex-basis: 48%;
+  }
+  #feature .container .inner_feature .box .image {
+  }
+  #free .container .inner_free {
+    flex-wrap: wrap;
+  }
+  .inner_data_ware_house {
+    flex-wrap: wrap;
+  }
+  .inner_data_ware_house .box {
+    flex-basis: 32%;
+  }
+  .inner_data_ware_house .social_media {
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #banner {
+    background-image: none;
+  }
+  #free .container .inner_free .request_btn {
+    margin: 30px 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #data_storage .container .inner_data_storage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+}
