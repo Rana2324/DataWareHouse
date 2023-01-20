@@ -268,11 +268,10 @@ a {
   background-image: url("../image/Rectangle 39.png");
 }
 #feature .container .inner_feature .box .image {
-  /* flex-basis: 50%; */
+  flex-basis: 50%;
 }
 #feature .container .inner_feature .box .image img {
   width: 100%;
-  width: 240px;
 }
 #feature .container .inner_feature .box .content {
   flex-basis: 50%;
@@ -394,7 +393,6 @@ a {
 }
 .inner_data_ware_house {
   display: flex;
-  align-items: center;
   justify-content: space-between;
   gap: 2%;
 }
@@ -436,6 +434,7 @@ a {
   font-size: 16px;
   line-height: 160%;
   margin-bottom: 53px;
+  padding-top: 20px;
 
   /* 2 */
 
@@ -459,6 +458,7 @@ a {
   font-size: 16px;
   margin-bottom: 40px;
   color: #212353;
+  padding-top: 20px;
 }
 .inner_data_ware_house .box .help ul {
   margin-bottom: 20px;
@@ -474,6 +474,7 @@ a {
 }
 .inner_data_ware_house .social_media h3 {
   margin-bottom: 30px;
+  padding-top: 20px;
 }
 .inner_data_ware_house .social_media .icons {
   display: flex;
